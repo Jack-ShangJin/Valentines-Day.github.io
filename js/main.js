@@ -2,15 +2,15 @@ $(document).ready(function(){
 	//旋转角度
 	var angles;
 	//可抽奖次数
-	var clickNum = 5;
+	var clickNum = 8;
 	//旋转次数
 	var rotNum = 0;
 	//中奖公告
 	var notice = null;
 	//转盘初始化
 	var color = ["#626262","#787878","rgba(0,0,0,0.5)","#DCC722","white","#FF4350"];
-	var info = ["谢谢参与","  1000","   10","  500","  100"," 4999","    1","   20"];
-	var info1 = ['再接再厉','      元','     元','  淘金币','     元','  淘金币','     元','  淘金币']
+	var info = ["谢谢参与","  5.20","   赠送一张","  获得一张","  获得一条"," 头绳头绳","    1","   20"];
+	var info1 = ['再接再厉','      元耶耶','     照片','  照片','     元','  视频','     耶耶','  淘金币']
 	canvasRun();
 	$('#tupBtn').bind('click',function(){
 		if (clickNum >= 1) {
