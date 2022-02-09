@@ -9,8 +9,8 @@ $(document).ready(function(){
 	var notice = null;
 	//转盘初始化
 	var color = ["#626262","#787878","rgba(0,0,0,0.5)","#DCC722","white","#FF4350"];
-	var info = ["","  ","   ","  ","  "," ","    ","   "];
-	var info1 = ['','      ','     ','  ','    ','  ','     ','  ']
+	var info = ["1"," 1 ","  1 "," 1 "," 1 "," 1","   1 "," 1  "];
+	var info1 = ['1','   1   ','  1   ','1  ',' 1   ',' 1 ','  1   ',' 1 ']
 	canvasRun();
 	$('#tupBtn').bind('click',function(){
 		if (clickNum >= 1) {
