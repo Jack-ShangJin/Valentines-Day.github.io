@@ -9,8 +9,8 @@ $(document).ready(function(){
 	var notice = null;
 	//转盘初始化
 	var color = ["#626262","#787878","rgba(0,0,0,0.5)","#DCC722","white","#FF4350"];
-	var info = ["谢谢参与","  5.20","   赠送一张","  获得一张","  获得一条"," 头绳头绳","    1","   20"];
-	var info1 = ['再接再厉','      元','     照片','  照片','     元','  耶耶','     元','  淘金币']
+	var info = ["","  ","   ","  ","  "," ","    ","   "];
+	var info1 = ['','      ','     ','  ','    ','  ','     ','  ']
 	canvasRun();
 	$('#tupBtn').bind('click',function(){
 		if (clickNum >= 1) {
