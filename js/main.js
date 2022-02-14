@@ -2,15 +2,15 @@ $(document).ready(function(){
 	//旋转角度
 	var angles;
 	//可抽奖次数
-	var clickNum = 8;
+	var clickNum = 5;
 	//旋转次数
 	var rotNum = 0;
 	//中奖公告
 	var notice = null;
 	//转盘初始化
 	var color = ["#626262","#787878","rgba(0,0,0,0.5)","#DCC722","white","#FF4350"];
-	var info = ["1"," 1 ","  1 "," 1 "," 1 "," 1","   1 "," 1  "];
-	var info1 = ['1','   1   ','  1   ','1  ',' 1   ',' 1 ','  1   ',' 1 ']
+	var info = ["冰墩墩画"," 头绳","鸭脖"," 5.20 "," "," 1","   1 "," 1  "];
+	var info1 = ['一张','一对','一包','红包',' ',' 1 ','  1   ',' 1 ']
 	canvasRun();
 	$('#tupBtn').bind('click',function(){
 		if (clickNum >= 1) {
@@ -29,7 +29,7 @@ $(document).ready(function(){
 			},6000);
 		}
 		else{
-			alert("亲，抽奖次数已用光！");
+			alert("亲爱的宝贝~，抽奖次数已用光！");
 		}
 	});
 
